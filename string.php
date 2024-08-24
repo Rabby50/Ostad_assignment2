@@ -5,7 +5,7 @@ $strings = ["Hello", "World", "PHP", "Programming"];
         preg_match_all("/[aeiou]/i", $string, $matches);
         $vcount= count($matches[0]);
         $reversestr=strrev($string);
-        echo "Original String: ".$string.", Vowel Count: ".$vcount.", Reversed String: ".$reversestr;
+        echo "Original String: ".$string.", Vowel Count: ".$vcount.", Reversed String: ".$reversestr."\n";
     };
 
     
